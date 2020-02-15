@@ -1,13 +1,13 @@
 
 public class Test {
     public static void main(String[] args){
-        int n0 = 1;
+        int n0 = 0;
         int n1 = 1;
         int n;
         System.out.print(n0+" "+n1+" ");
         for(int i = 3; i <= 11; i++){
             n=n0+n1;
-            System.out.print(n+" ");
+            System.out.print("The number is: " + n + " ");
             n0=n1;
             n1=n;
         }
